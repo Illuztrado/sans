@@ -106,6 +106,7 @@ button, .button {
 
 button:hover {
   background-color: #246ba2;
+  cursor: pointer;
 }
 
 /*
