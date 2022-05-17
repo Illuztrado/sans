@@ -1,0 +1,220 @@
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container,
+.grid {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+
+body {
+  background: #d9e5ed;
+  color: #123550;;
+  font: 400 16px/22px Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+body * {
+  outline: 1px dotted red;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+nav li{
+  list-style: none;
+}
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a {
+  color: #123550;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #18517d;
+}
+
+/*
+  ========================================
+  Button
+  ========================================
+*/
+
+button {
+  border: none;
+  background-color: #123550;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #246ba2;
+}
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
+header > * {
+  width: 20%;
+  float: left;
+}
+
+header h2 {
+  width: 30%;
+}
+
+header nav {
+  width: 50%;
+}
+
+header li {
+  float: left;
+  width: 25%;
+}
+
+/*
+  ========================================
+  Hero
+  ========================================
+*/
+
+main div, .signup, img {
+  height: 20em;
+  width: 45%;
+  float: left;
+}
+
+main div {
+  width: 10%;
+}
+
+main input {
+  background-color: #96aab7;
+  border: none;
+}
+
+main input,
+main button {
+  height: 1.8rem;
+}
+
+/*
+  ========================================
+  Features
+  ========================================
+*/
+
+.features div {
+  width: 20%;
+  float: left;
+}
+
+.features i {
+  font-size: 1.75rem;
+}
+
+.features p {
+  height: 8rem;
+}
+
+div.featureSpace {
+  width: 10%;
+}
+
+/*
+  ========================================
+  Collecting
+  ========================================
+*/
+
+.collecting {
+  background-color: #fff;
+}
+
+.collecting > div {
+  width: 80%;
+  float: left;
+  font-size: 1rem;
+}
+
+div.collectingSpace {
+  width: 10%;
+  height: 1px;
+}
+
+.focus-border {
+  border-bottom: 1.8rem solid lightgray;
+}
+
+.focus-border div {
+  width: 60%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
