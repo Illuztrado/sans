@@ -62,10 +62,6 @@ body {
   font: 500 16px/22px Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
-body * {
-}
-
-
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -267,7 +263,7 @@ main button {
 
 .focus-border {
   border-bottom: 1.8rem solid #f3f8fc;
-  color:
+  /* color: ;  */
 }
 
 /******************************************
